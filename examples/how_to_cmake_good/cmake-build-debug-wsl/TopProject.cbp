@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TopProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\say-hello\;CMake Files\hello-exe\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="say-hello">
+				<Option output="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello/libsay-hello.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSAY_HELLO_VERSION=8"/>
+					<Add directory="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/say-hello/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello/Makefile&quot;  VERBOSE=1 say-hello"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="say-hello/fast">
+				<Option output="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello/libsay-hello.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSAY_HELLO_VERSION=8"/>
+					<Add directory="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/say-hello/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello/Makefile&quot;  VERBOSE=1 say-hello/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/say-hello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmake-good">
+				<Option output="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe/cmake-good" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSAY_HELLO_VERSION=8"/>
+					<Add directory="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/say-hello/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe/Makefile&quot;  VERBOSE=1 cmake-good"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmake-good/fast">
+				<Option output="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe/cmake-good" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSAY_HELLO_VERSION=8"/>
+					<Add directory="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/say-hello/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe/Makefile&quot;  VERBOSE=1 cmake-good/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/cmake-build-debug-wsl/hello-exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/hello-exe/main.cc">
+			<Option target="cmake-good"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/say-hello/src/say-hello/hello.cc">
+			<Option target="say-hello"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/say-hello/src/say-hello/hello.h">
+			<Option target="say-hello"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/PrintVariables.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/say-hello/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\say-hello\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/sam/Desktop/modern-cmake/examples/how_to_cmake_good/hello-exe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-exe\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
